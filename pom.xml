@@ -10,12 +10,10 @@
     <name>Mvc Demo</name>
 
     <repositories>
-        <!-- TODO To remove after final JHipster release -->
         <repository>
             <id>aiyun-oss</id>
             <url>http://nexus.aiyuninfo.com/content/groups/maven-public/</url>
         </repository>
-        <!-- jhipster-needle-maven-repository -->
     </repositories>
 
     <pluginRepositories>

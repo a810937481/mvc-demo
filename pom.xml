@@ -17,6 +17,13 @@
     </repositories>
 
     <pluginRepositories>
+        <pluginRepository>
+            <id>aiyun-oss</id>
+            <url>http://nexus.aiyuninfo.com/content/groups/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <pluginRepositories>
         <!-- jhipster-needle-maven-plugin-repository -->
     </pluginRepositories>
 

@@ -3,6 +3,7 @@ package com.aiyun.app;
 import com.aiyun.app.config.ApplicationProperties;
 import com.aiyun.app.config.DefaultProfileUtil;
 
+import com.aiyun.app.service.impl.StudentServiceImpl;
 import io.github.jhipster.config.JHipsterConstants;
 
 import org.apache.commons.lang3.StringUtils;
@@ -62,6 +63,7 @@ public class MvcDemoApp implements InitializingBean {
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         logApplicationStartup(env);
+        StudentServiceImpl.init();
     }
 
     private static void logApplicationStartup(Environment env) {

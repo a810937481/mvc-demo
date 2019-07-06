@@ -12,14 +12,8 @@
     <repositories>
         <!-- TODO To remove after final JHipster release -->
         <repository>
-            <id>oss.sonatype.org-snapshot</id>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>aiyun-oss</id>
+            <url>http://nexus.aiyuninfo.com/content/groups/maven-public/</url>
         </repository>
         <!-- jhipster-needle-maven-repository -->
     </repositories>

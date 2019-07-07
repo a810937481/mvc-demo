@@ -4,20 +4,19 @@ import io.swagger.annotations.ApiModelProperty;
 
 /**
  * 学生模型
- * @author zhaoyuan
  */
 public class Student {
 
-    @ApiModelProperty(value = "学号", required = true)
+    @ApiModelProperty(value = "学号",required = true)
     private String code;
 
-    @ApiModelProperty(value = "学生姓名", required = true)
+    @ApiModelProperty(value = "姓名",required = true)
     private String name;
 
-    @ApiModelProperty(value = "班级名称", required = true)
+    @ApiModelProperty(value = "班级",required = true)
     private String className;
 
-    @ApiModelProperty(value = "年级", required = true)
+    @ApiModelProperty(value = "年级",required = true)
     private String grade;
 
     public Student() {
@@ -64,5 +63,15 @@ public class Student {
     public Student setGrade(String grade) {
         this.grade = grade;
         return this;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+            "code='" + code + '\'' +
+            ", name='" + name + '\'' +
+            ", className='" + className + '\'' +
+            ", grade='" + grade + '\'' +
+            '}';
     }
 }

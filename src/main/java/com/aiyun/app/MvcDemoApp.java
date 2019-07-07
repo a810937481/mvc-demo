@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.core.env.Environment;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -22,6 +23,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @SpringBootApplication
+@EnableSwagger2
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 public class MvcDemoApp implements InitializingBean {
 

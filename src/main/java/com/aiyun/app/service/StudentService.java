@@ -1,13 +1,11 @@
 package com.aiyun.app.service;
 
-
 import com.aiyun.app.domain.Student;
 
 import java.util.List;
 
 /**
  * 学生服务
- * @author zhaoyuan
  */
 public interface StudentService {
 
@@ -18,7 +16,7 @@ public interface StudentService {
     List<Student> findAll();
 
     /**
-     * 通过关键词检索学生列表
+     * 通关关键词检索学生列表
      * @param keyword
      * @return
      */
@@ -32,7 +30,7 @@ public interface StudentService {
     Student findByCode(String code) throws Exception;
 
     /**
-     * 新建学生
+     * 创建学生
      * @param student
      * @return
      */
@@ -50,4 +48,5 @@ public interface StudentService {
      * @param code
      */
     void deleteStudent(String code);
+
 }

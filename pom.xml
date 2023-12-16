@@ -12,14 +12,14 @@
     <repositories>
         <repository>
             <id>aiyun-oss</id>
-            <url>http://nexus.aiyuninfo.com/content/groups/maven-public/</url>
+            <url>https://nexus.aiyuninfo.com/content/groups/maven-public/</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
             <id>aiyun-oss</id>
-            <url>http://nexus.aiyuninfo.com/content/groups/maven-public/</url>
+            <url>https://nexus.aiyuninfo.com/content/groups/maven-public/</url>
         </pluginRepository>
     </pluginRepositories>
 
